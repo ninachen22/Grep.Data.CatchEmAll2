@@ -1,37 +1,40 @@
 # Part 1
 ### a)
+found in filescan_00.1
+grep ^beed filescan_00.1 > beedrill.txt
+grep ^blas filescan_00.1 > blastoise.txt
+grep ^bulb filescan_00.1 > bulbasaur.txt
+grep ^butt filescan_00.1 > butterfree.txt
 
+found in filescan_00.2
+grep izard$ filescan_00.2 > charizard.txt
+grep mander$ filescan_00.2 > charmander.txt
+grep meleon$ filescan_00.2 > charmeleon.txt
 
+found in filescan_00.3
+grep ^ivys filescan_00.3 > ivysaur.txt
+grep ^jigg filescan_00.3 > jigglypuff.txt
+grep ^meow filescan_00.3 > meowth.txt
+grep ^pika filescan_00.3 > pikachu.txt
 
+found in filescan_00.4
+grep ^psyd filescan_00.4 > psyduck.txt
+grep ^squi filescan_00.4 > squirtle.txt
+grep ^venu filescan_00.4 > venusaur.txt
+grep ^wart filescan_00.4 > wartortle.txt
 
 ### b)
-
-
-
 ### c)
-
-
-
-
-
-
-
-
-
-
-
+*see section a*
 
 
 # Part 2
 ### a)
-
-
-
-
+ls captured/*.txt | wc -l
 
 
 ### b)
-
+find captured/ -type f -exec wc -l {} + | sort -rn
 
 
 
